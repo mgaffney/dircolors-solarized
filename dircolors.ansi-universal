@@ -261,7 +261,6 @@ EXEC 01;31  # Unix
 .p 32
 .pod 32
 .tex 32
-.go 32
 .sql 32
 .csv 32
 .sv 32
@@ -270,6 +269,16 @@ EXEC 01;31  # Unix
 .vh 32
 .vhd 32
 
+#.go 00;38;5;64
+# *_test.go 00;38;5;136
+# *_test.go 32
+.go 32
+*_test.go 03;32
+*_ent.go 00;38;5;166
+*_ent_test.go 03;38;5;166
+
+.proto 34
+*.pb.go 03;34
 ### Multimedia formats
 
 # Image
